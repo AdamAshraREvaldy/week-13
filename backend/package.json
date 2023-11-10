@@ -15,8 +15,9 @@
     "prisma": "^4.11.0"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon index.js",
     "prisma": "prisma",
-    "migrate": "prisma migrate dev --name init"
+    "migrate": "prisma migrate dev --name init",
+    "prisma:generate": "prisma generate"
   }
 }
